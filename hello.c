@@ -3,8 +3,14 @@
 
 int main(void)
 {
-int num1= get_int ("enter the first number");
-int num2= get_int("enter the second number");
-int result = num1 + num2;
-printf("%d\n", result);
+int x= get_int(" x: ");
+int y= get_int("Y:");
+if(x<y){
+   printf("x is less than y \n");
+}
+else { printf("x is not less than y\n ");
+ }
+
+
+
 }
