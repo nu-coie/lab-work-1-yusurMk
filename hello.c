@@ -4,10 +4,10 @@
 int main(void)
 {
 int n=get_int("n:");
- 
+
  if( n % 2== 0)
  {printf("even\n");
  }
- else{printf("n is odd\n ");
+ else{printf(" odd\n ");
   }
 }
