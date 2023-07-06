@@ -3,13 +3,13 @@
 
 int main(void)
 {
-int x= get_int(" x: ");
-int y= get_int("Y:");
-if(x<y){
-   printf("x is less than y \n");
-}
-else { printf("x is not less than y\n ");
+int n=get_int("n:");
  }
+ if( n%==0)
+ {printf("even\n");
+ }
+ else{printf("n is odd");
+  }
 
 
 
