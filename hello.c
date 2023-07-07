@@ -3,5 +3,9 @@
 
 int main(void)
 {
-for(i=0, i)
+for()
+{
+  printf("meaow\n");
 }
+}
+
