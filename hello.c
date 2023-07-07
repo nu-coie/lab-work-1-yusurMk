@@ -8,3 +8,6 @@ if(a == 'y'){
   printf("agreed\n");
 }
 else if(a == 'n'){
+  printf("not agreed\n ");
+}
+}
