@@ -4,12 +4,12 @@
 int main(void)
 {
 char a= get_char("do you agree");
-if( a == 'y');
+if( a == 'y')
 {
   printf("agreed\n");
 }
-else if (a=='no');
+else if (a == 'n');
 {
-  printf("not agreed");
+  printf("not agreed"\n);
 }
 }
