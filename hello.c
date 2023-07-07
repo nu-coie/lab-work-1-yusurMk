@@ -3,11 +3,11 @@
 
 int main(void)
 {
-char A= get_char("do you agree");
-if( A == 'y');
+char a= get_char("do you agree");
+if( a == 'y');
 {printf("agreed\n");
 }
-else if (A=='no' );
+else if (a=='no');
 {printf("not agreed");
 }
 }
