@@ -3,11 +3,11 @@
 
 int main(void)
 {
-int n=get_int("n:");
-
- if( n % 2== 0)
- {printf("even\n");
- }
- else{printf(" odd\n ");
-  }
+char A= get_char("do you agree");
+if( A == 'y');
+{printf("agreed\n");
+}
+else if (A=='no' );
+{printf("not agreed");
+}
 }
