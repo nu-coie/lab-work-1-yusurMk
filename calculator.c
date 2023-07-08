@@ -12,14 +12,16 @@ int main(void)
 if(method=='A' || method=='a' )
 {
     printf("%i\n", num1+num2);
+
 }
-{
     if(method=='M' || method=='m')
+
+}
     printf("%i\n", num1*num2");
 
-
+{
     if(method=='D' || method=='d')
-    {
+    }
 printf("%i\n",num1%num2);
 }
 }
