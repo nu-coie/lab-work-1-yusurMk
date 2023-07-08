@@ -1,12 +1,11 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
-  
-  // Step ( 1 ) : Print Hello, World
-  
-  
-  
-  //Step ( 2 ) : Print Hello, Your Name
-
+for(int i = 0; i <= 10; i += 2 )
+{
+  printf("%i\n", i);
 }
+}
+
