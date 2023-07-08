@@ -5,10 +5,10 @@
 int main(void)
 {
 // Accept Input From user (char), where (a) stands for "Addition", (m) for "Multiplications," and (d) for "Division,"
- int num1= get_intger("enter the first number");
- int num2=get_intger("enter the second number");
+ int num1= get_int("enter the first number");
+ int num2=get_int("enter the second number");
  char method=get_char("choose the method");
- method=("(A,M,D):");
+ method=("A,M,D:");
 if(method==A || method==a )
 {
     printf("%i\n, num1+num2);
