@@ -8,7 +8,7 @@ int main(void)
  int num1= get_intger("enter the first number");
  int num2=get_intger("enter the second number");
  char method=get_char("choose the method");
- method=(A,M,D)
-if()
+ method=("A,M,D");
+if(A)
 
 }
