@@ -9,16 +9,16 @@ int main(void)
  int num2=get_int("enter the second number");
  char method=get_char("choose the method (A,M,D): ");
 
-if(method==A || method==a )
+if(method=='A' || method=='a' )
 {
     printf("%i\n", num1+num2);
 }
 {
-    if(method==M || method==m)
+    if(method=='M' || method=='m')
     printf("%i\n", num1*num2");
 }
 {
-    if(method==D || methode==d)
+    if(method=='D' || method=='d')
 printf("%i\n",num1%num2");
 }
 }
