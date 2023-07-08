@@ -16,6 +16,6 @@ int main(void)
  }
 if(method=='D' || method=='d')
 {
-    printf("%i\n", num1%num2);
+    printf("%i\n", num1/num2);
 }
 }
