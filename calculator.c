@@ -16,12 +16,12 @@ if(method=='A' || method=='a' )
 }
     if(method=='M' || method=='m')
 
-}
-    printf("%i\n", num1*num2");
-
 {
+    printf("%i\n", num1*num2");
+}
+
     if(method=='D' || method=='d')
-    }
+    {
 printf("%i\n",num1%num2);
 }
 }
